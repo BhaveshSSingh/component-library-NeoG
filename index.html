@@ -36,25 +36,25 @@
     <h2>@Links</h2>
     <a class="link link-primary" href="/">Primary Link</a>
     <a class="link link-secondary" href="/">Secondary Link</a>
-
+    <hr />
     <h2>@lists</h2>
     <h3>unordered lists</h3>
 
-    <ul>
+    <ul class="list-styling">
       <li>Item One</li>
       <li>Item Two</li>
       <li>Item Three</li>
     </ul>
 
     <h3>unordered inline list</h3>
-    <ul>
-      <li>Inline Item One</li>
-      <li>Inline Item Two</li>
-      <li>Inline Item Three</li>
+    <ul class="list-styling">
+      <li class="list-item-inline">Inline Item One</li>
+      <li class="list-item-inline">Inline Item Two</li>
+      <li class="list-item-inline">Inline Item Three</li>
     </ul>
 
     <h3>reverse ordered list</h3>
-    <ol>
+    <ol reversed>
       <li>milk</li>
       <li>eggs</li>
       <li>bread</li>
@@ -62,26 +62,29 @@
     <hr />
 
     <h2>@nav</h2>
-    <nav>
-      <div>IAmBrand</div>
-      <ul>
-        <li>
-          <a href="/">home</a>
+
+    <nav class="nav container">
+      <div class="nav-brand">IAmBrand</div>
+      <ul class="list-styling nav-pills">
+        <li class="list-item-inline">
+          <a class="link link-active" href="/">home</a>
         </li>
-        <li>
-          <a href="/">products</a>
+        <li class="list-item-inline">
+          <a class="link" href="/">products</a>
         </li>
-        <li>
-          <a href="/">about</a>
+        <li class="list-item-inline">
+          <a class="link" href="/">about</a>
         </li>
       </ul>
     </nav>
 
     <hr />
     <h2>@header</h2>
-    <header>
-      <img src="img/header.svg" alt="" />
-      <h1>heading inside hero</h1>
+    <header class="hero">
+      <img class="hero-img" src="img/header.svg" alt="" />
+      <h1 class="hero-heading">
+        heading inside<span class="highlight"> hero</span>
+      </h1>
     </header>
     <hr />
     <h2>@section</h2>
