@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
 :root {
   --primary-color: #fcd34d;
-  --off-white: #f3f4f6;
+  --off-white: #e5e7eb;
   --dark-gray: #1f2937;
 }
 
@@ -113,7 +113,10 @@ footer {
   color: white;
   border-top-right-radius: 1rem;
 }
-
+.footer .footer-header {
+  font-weight: bold;
+  font-size: large;
+}
 .footer .link {
   color: white;
 }
