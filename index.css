@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
 :root {
   --primary-color: #fcd34d;
+  --off-white: #f3f4f6;
   --dark-gray: #1f2937;
 }
 
@@ -88,4 +89,16 @@ hr {
 }
 .hero .hero-heading .highlight {
   color: var(--primary-color);
+}
+/* section */
+.section {
+  padding: 2rem;
+}
+.section h1 {
+  text-align: center;
+  padding: 2rem;
+}
+
+.ow {
+  background-color: var(--off-white);
 }
